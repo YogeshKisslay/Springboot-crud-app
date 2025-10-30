@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PutMapping;
 
 // to allow request from frontend
-// @CrossOrigin("http://localhost:3000")
+ @CrossOrigin("http://localhost:5173")
 
 @RestController
 //@RequestMapping("/api/v1/")  //base url for all the endpoints in this controller
